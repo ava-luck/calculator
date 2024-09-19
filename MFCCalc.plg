@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MFCCalc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MFCCalc.res" /d "NDEBUG" "C:\Users\A\Desktop\大二上\数据结构与算法\MFCCalc\MFCCalc.rc"" 
+Creating temporary file "C:\Users\A\AppData\Local\Temp\RSPD998.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/MFCCalc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\A\Desktop\大二上\数据结构与算法\MFCCalc\MFCCalc.cpp"
+"C:\Users\A\Desktop\大二上\数据结构与算法\MFCCalc\MFCCalcDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\A\AppData\Local\Temp\RSPD998.tmp" 
+Creating temporary file "C:\Users\A\AppData\Local\Temp\RSPD999.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/MFCCalc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\A\Desktop\大二上\数据结构与算法\MFCCalc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\A\AppData\Local\Temp\RSPD999.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/MFCCalc.pdb" /machine:I386 /out:"Release/MFCCalc.exe"  ".\Release\MFCCalc.obj" ".\Release\MFCCalcDlg.obj" ".\Release\StdAfx.obj" ".\Release\MFCCalc.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MFCCalc.cpp
+MFCCalcDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+MFCCalc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
